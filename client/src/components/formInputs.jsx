@@ -163,7 +163,7 @@ function FormInput() {
         clearInterval(timer);
     }
     function startJourney() {
-        timer = setInterval(Journey, 15000)
+        timer = setInterval(Journey, 60000)
     }
     useEffect(() => {
         //console.log(user);
